@@ -25,7 +25,7 @@ let posts = [
 ];
 
 app.get("/posts", (req, res) => {
-    res.send("server is working well");
+    res.render("index.ejs", { posts });
 });
 
 app.listen(8080, ()=> {
