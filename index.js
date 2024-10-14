@@ -12,11 +12,15 @@ app.set(express.static(path.join(__dirname, "public")));
 let posts = [
     {
         username: "Binay Bhusan",
-        content: "Do Hard Work",
+        content: "Do Hard Work"
     },
     {
         username: "kunjabihari",
         content: "wake up early"
+    },
+    {
+        username: "manash",
+        content: "Follow your passion"
     }
 ];
 
