@@ -24,7 +24,7 @@ let posts = [
     }
 ];
 
-app.get("/server", (req, res) => {
+app.get("/posts", (req, res) => {
     res.send("server is working well");
 });
 
