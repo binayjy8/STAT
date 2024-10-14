@@ -13,6 +13,10 @@ let posts = [
     {
         username: "Binay Bhusan",
         content: "Do Hard Work",
+    },
+    {
+        username: "kunjabihari",
+        content: "wake up early"
     }
 ];
 
