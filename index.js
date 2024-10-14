@@ -32,9 +32,10 @@ app.get("/posts/new", (req, res) => {
     res.render("new.ejs");
 });
 
-app.post("/post", (req, res) => {
+app.post("/posts", (req, res) => {
     let {username, content } = req.body;
     posts.push({ username, content});
+    res.redirect("/posts");
 });
 
 app.listen(8080, ()=> {
