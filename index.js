@@ -32,10 +32,6 @@ app.get("/posts/new", (req, res) => {
     res.render("new.ejs");
 });
 
-app.get("/", (req, res) => {
-    console.log("hello world you started");
-});
-
 app.post("/posts", (req, res) => {
     let {username, content } = req.body;
     posts.push({ username, content});
