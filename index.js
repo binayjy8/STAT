@@ -33,7 +33,7 @@ app.get("/posts/new", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    console.log("hello world yo");
+    console.log("hello world you");
 });
 
 app.post("/posts", (req, res) => {
