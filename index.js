@@ -32,7 +32,7 @@ app.get("/posts/new", (req, res) => {
     res.render("new.ejs");
 });
 
-app
+app.get
 
 app.post("/posts", (req, res) => {
     let {username, content } = req.body;
