@@ -21,6 +21,7 @@ let posts = [
         content: "wake up early"
     },
     {
+        id: "3c",
         username: "manash",
         content: "Follow your passion"
     }
