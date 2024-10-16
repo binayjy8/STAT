@@ -36,7 +36,7 @@ app.get("/posts/new", (req, res) => {
 });
 
 app.get("/posts/:id", (req, res) => {
-    
+    let
 });
 
 app.listen(8080, ()=> {
