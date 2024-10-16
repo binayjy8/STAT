@@ -43,6 +43,7 @@ app.post("/posts", (req, res) => {
 
 app.get("/posts/:id", (req, res) => {
     let {id} = req.params;
+    let post = posts.find((p))
 });
 
 app.listen(8080, ()=> {
