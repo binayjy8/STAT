@@ -35,7 +35,7 @@ app.get("/posts/new", (req, res) => {
     res.render("new.ejs");
 });
 
-app.get("/posts", (req, res) => {
+app.get("/posts/:id", (req, res) => {
     
 });
 
