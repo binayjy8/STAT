@@ -35,7 +35,7 @@ app.get("/posts/new", (req, res) => {
     res.render("new.ejs");
 });
 
-app.post("/posts");
+app.post("/posts", (req, res));
 
 app.get("/posts/:id", (req, res) => {
     let {id} = req.params;
