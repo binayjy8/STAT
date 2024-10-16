@@ -16,6 +16,7 @@ let posts = [
         content: "Do Hard Work"
     },
     {
+        id: "2b",
         username: "kunjabihari",
         content: "wake up early"
     },
