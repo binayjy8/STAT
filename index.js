@@ -36,7 +36,7 @@ app.get("/posts/new", (req, res) => {
 });
 
 app.post("/posts", (req, res) => {
-    let
+    let { username, content } = req.body;
 });
 
 app.get("/posts/:id", (req, res) => {
