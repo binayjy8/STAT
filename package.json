@@ -2,7 +2,8 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "mongoose": "^8.7.0"
+    "mongoose": "^8.7.0",
+    "uuid": "^10.0.0"
   },
   "name": "binay",
   "version": "1.0.0",
