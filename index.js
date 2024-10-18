@@ -50,7 +50,7 @@ app.get("/posts/:id", (req, res) => {
 });
 
 app.patch("/posts/:id", (req, res) => {
-    res
+    res.send();
 });
 
 app.listen(8080, ()=> {
