@@ -50,6 +50,7 @@ app.get("/posts/:id", (req, res) => {
 });
 
 app.patch("/posts/:id", (req, res) => {
+    let { id } = 
     res.send();
 });
 
