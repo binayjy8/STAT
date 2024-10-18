@@ -52,6 +52,7 @@ app.get("/posts/:id", (req, res) => {
 app.patch("/posts/:id", (req, res) => {
     let { id } = req.params;
     let newContent = req.body.content;
+    let post = posts.find((p) => id === p.id);
     res.send();
 });
 
