@@ -57,6 +57,8 @@ app.patch("/posts/:id", (req, res) => {
     res.send();
 });
 
+app.get();
+
 app.listen(8080, ()=> {
     console.log("listening to the port: 8080");
 });
