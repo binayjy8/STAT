@@ -60,7 +60,7 @@ app.patch("/posts/:id", (req, res) => {
 app.get("/posts/:id/edit", (req, res) => {
     let { id } = req.params;
     let post = posts.find((p) => id === p.id);
-    res.render();
+    res.render("e");
 });
 
 app.listen(8080, ()=> {
