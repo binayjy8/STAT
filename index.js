@@ -67,7 +67,7 @@ app.get("/posts/:id/edit", (req, res) => {
 
 app.delete("/posts/:id", (req, res) => {
     let { id } = req.params;
-    let post = posts.find((p) => id === p.id);
+    posts = posts.find((p) => id === p.id);
 });
 
 app.listen(8080, ()=> {
