@@ -10,7 +10,7 @@
     <p>Post id : <%= post.id %></p>
     <p>Post username : <%= post.username %> </p>
     <form method="POST" action="/posts/<%=post.id%>?_method=PATCH">
-        <textarea nam><%= post.content %></textarea>
+        <textarea name><%= post.content %></textarea>
         <button>Submit</button>
     </form>
 </body>
