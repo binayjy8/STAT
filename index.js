@@ -45,6 +45,8 @@ app.post("/posts", (req, res) => {
     res.redirect("/posts");
 });
 
+app.get
+
 app.get("/posts/:id", (req, res) => {
     let {id} = req.params;
     let post = posts.find((p) => id === p.id);
@@ -67,7 +69,8 @@ app.get("/posts/:id/edit", (req, res) => {
 
 app.delete("/posts/:id", (req, res) => {
     let { id } = req.params;
-    posts = posts.find((p) => id === p.id);
+    posts = posts.filter((p) => id !== p.id);
+    res.redirect("/posts");
 });
 
 app.listen(8080, ()=> {
