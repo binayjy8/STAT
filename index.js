@@ -45,7 +45,7 @@ app.post("/posts", (req, res) => {
     res.redirect("/posts");
 });
 
-app.get("/posts/fun");
+app.get("/posts/fun", (req, res));
 
 app.get("/posts/:id", (req, res) => {
     let {id} = req.params;
