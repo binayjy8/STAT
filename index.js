@@ -46,7 +46,7 @@ app.post("/posts", (req, res) => {
 });
 
 app.get("/posts/fun", (req, res) => {
-    res.send("You are doing well keep up");
+    res.send("You are doing well keep up d");
 });
 
 app.get("/posts/:id", (req, res) => {
