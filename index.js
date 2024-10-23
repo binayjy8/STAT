@@ -50,7 +50,7 @@ app.get("/posts/fun", (req, res) => {
 });
 
 app.get("/posts/work", (req, res) => {
-    res.send("");
+    res.send("A");
 });
 
 app.get("/posts/:id", (req, res) => {
