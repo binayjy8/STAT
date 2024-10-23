@@ -49,7 +49,9 @@ app.get("/posts/fun", (req, res) => {
     res.send("You are doing well keep up doing hard");
 });
 
-app.get("/posts/work", (req, res));
+app.get("/posts/work", (req, res) => {
+    res.send("");
+});
 
 app.get("/posts/:id", (req, res) => {
     let {id} = req.params;
