@@ -49,6 +49,8 @@ app.get("/posts/fun", (req, res) => {
     res.send("You are doing well keep up doing hard");
 });
 
+app.get
+
 app.get("/posts/:id", (req, res) => {
     let {id} = req.params;
     let post = posts.find((p) => id === p.id);
