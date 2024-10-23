@@ -49,7 +49,7 @@ app.get("/posts/fun", (req, res) => {
     res.send("You are doing well keep up doing hard");
 });
 
-app.get("/posts");
+app.get("/posts/work");
 
 app.get("/posts/:id", (req, res) => {
     let {id} = req.params;
