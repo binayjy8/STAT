@@ -50,7 +50,7 @@ app.get("/posts/fun", (req, res) => {
 });
 
 app.get("/posts/work", (req, res) => {
-    res.send("Always progress doing good be patitence and wonderfull journey plea");
+    res.send("Always progress doing good be patitence and wonderfull journey pleas");
 });
 
 app.get("/posts/:id", (req, res) => {
